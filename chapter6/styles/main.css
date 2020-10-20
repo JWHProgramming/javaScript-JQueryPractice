@@ -44,7 +44,15 @@ input{
     display:block;
     border-radius: 60%;
     margin: 2em auto;
+    color:white;
     
+}
+
+button{
+    background-color: black;
+    border: none;
+    display:block;
+    margin: 0 auto;
 }
 
 footer{
