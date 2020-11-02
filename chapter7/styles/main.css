@@ -15,3 +15,11 @@ body{
 .hot{
     background-color:red;
 }
+
+.favorite{
+    color:green;
+}
+
+#group{
+    background-color:purple;
+}
