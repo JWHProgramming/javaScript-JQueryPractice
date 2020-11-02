@@ -23,3 +23,11 @@ body{
 #group{
     background-color:purple;
 }
+
+.fresh{
+    font-style: italic;
+}
+
+.priority{
+    font-weight: bold;
+}
