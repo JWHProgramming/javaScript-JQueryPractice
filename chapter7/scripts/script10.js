@@ -33,4 +33,19 @@ $(document).ready(function(){
     $li.on('click', function(){
         $(this).fadeOut(700);
     });
+
+
+    //Using animations on CSS properties with .animate()
+    // .animate({[speed],[easing], [complete]})
+
+    $('li').on('click', function(){
+        $(this).animate({
+            opacity: 0.0,
+            paddingLeft: '+=180'
+        }, 500, function(){
+            $(this).remove();
+        });
+    });
+
+
 })

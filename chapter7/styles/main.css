@@ -31,3 +31,11 @@ body{
 .priority{
     font-weight: bold;
 }
+
+.complete{
+    background-color: gray;
+}
+
+.show{
+    background-color:red;
+}
