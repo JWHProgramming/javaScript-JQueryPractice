@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var $h2 = $('h2');
+   /* var $h2 = $('h2');
     $('ul').hide();
     $h2.append('<a class="show">show</a>');
 
@@ -14,6 +14,7 @@ $(document).ready(function(){
     $('li:first').removeClass('cool');
     $listItems.has('em').addClass('complete');
 
+    
     $listItems.each(function(){
         var $this = $(this);
         if($this.is('.hot')){
@@ -22,4 +23,10 @@ $(document).ready(function(){
     })
 
     $('li:contains("Honey")').append('Local');
+    */
+
+    $('li:lt(2)').removeClass('hot');
+    $('li').eq(0).addClass('complete');
+    $('li:gt(2)').addClass('cool');
+
 })
