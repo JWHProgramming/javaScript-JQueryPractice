@@ -43,3 +43,8 @@ body{
 .cool{
     background-color:teal;
 }
+
+#counter{
+    background-color:red;
+    border-radius: 50%;
+}
